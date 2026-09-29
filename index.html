@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090a0d" />
+    <title>Илон Маск — визитка с побочной стороной</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page-noise"></div>
+    <main class="shell">
+      <nav class="topbar" aria-label="Основная навигация">
+        <a class="brand" href="#top">MUSK<span>/</span>CARD</a>
+        <div class="nav-links">
+          <a href="#about">Досье</a>
+          <a href="#contact">Связь</a>
+        </div>
+        <button class="mode-toggle" type="button" aria-label="Переключить побочную сторону" aria-pressed="false">
+          <span class="toggle-dot"></span>
+          <span class="toggle-label">побочная сторона</span>
+        </button>
+      </nav>
+
+      <section class="hero" id="top">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> предприниматель / инженер / главный герой мемов</p>
+          <h1>Илон<br /><em>Маск</em></h1>
+          <p class="intro">Создаёт ракеты, автомобили и иногда — очень длинные треды. В этой визитке представлены обе версии реальности.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#about">Открыть досье <span>↘</span></a>
+            <button class="text-button" type="button" data-joke>Случайный факт <span>→</span></button>
+          </div>
+        </div>
+
+        <aside class="identity-card" aria-label="Краткая карточка Илона Маска">
+          <div class="card-topline"><span>STATUS</span><b>ONLINE</b></div>
+          <div class="portrait" aria-hidden="true">
+            <div class="planet"></div>
+            <div class="portrait-name">M</div>
+            <div class="rocket">▲</div>
+          </div>
+          <div class="card-bottom">
+            <div><span>ОСНОВАТЕЛЬ</span><strong>Нескольких<br />бессонных ночей</strong></div>
+            <span class="serial">01 / 08</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="ticker" aria-label="Направления деятельности">
+        <div class="ticker-track"><span>SPACE</span><i>✦</i><span>ENERGY</span><i>✦</i><span>AI</span><i>✦</i><span>MEMES</span><i>✦</i><span>SPACE</span><i>✦</i><span>ENERGY</span><i>✦</i><span>AI</span><i>✦</i><span>MEMES</span><i>✦</i></div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="section-label">02 — ДОСЬЕ</div>
+        <div class="section-heading">
+          <h2>Человек, который<br />смотрит <em>выше.</em></h2>
+          <p>Технологический предприниматель с планом Б: сделать планет несколько.</p>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card"><span>01</span><strong>Земля</strong><p>Пока основная площадка для запуска амбициозных идей.</p></article>
+          <article class="stat-card accent"><span>02</span><strong>Марс</strong><p>Резервная площадка. Бронь пока не подтверждена.</p></article>
+          <article class="stat-card"><span>03</span><strong>∞</strong><p>Количество вкладок в браузере во время «короткой» встречи.</p></article>
+        </div>
+      </section>
+
+      <section class="side-panel" id="contact">
+        <div class="side-copy">
+          <p class="eyebrow"><span></span> режим без галстука</p>
+          <h2>Побочная<br /><em>сторона.</em></h2>
+          <p>Здесь серьёзная визитка ненадолго отключает автопилот. Нажмите кнопку — и увидите, почему запускать ракеты проще, чем подобрать идеальный мем.</p>
+          <button class="button inverted" type="button" data-joke>Активировать иронию <span>↗</span></button>
+        </div>
+        <div class="joke-terminal" aria-live="polite">
+          <div class="terminal-head"><span class="terminal-lights"><i></i><i></i><i></i></span><span>definitely_not_a_tweet.exe</span></div>
+          <div class="terminal-body">
+            <p class="prompt">&gt; загружаем побочную сторону…</p>
+            <p class="joke-text">«Я не прокрастинирую.<br />Я просто даю идеям<br />время выйти на орбиту.»</p>
+            <p class="cursor">_</p>
+          </div>
+        </div>
+      </section>
+
+      <footer><span>© 2024—∞ / неофициальная визитка</span><a href="#top">НАВЕРХ ↑</a></footer>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
